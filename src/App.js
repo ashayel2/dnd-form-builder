@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+import {Board} from './components/Board'
+import Card from './components/Module'
+import { FormBuilder } from './components/FormBuilder';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+          <FormBuilder />
+       
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +23,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
+
+
 
 export default App;
